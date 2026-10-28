@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: actiontrack
+Version: 0.1.0
+Summary: CLI tool that tracks action items from Markdown meeting notes and drafts follow-up emails
+Requires-Python: >=3.11
+Requires-Dist: typer>=0.12
+Requires-Dist: rich>=13.0
+Requires-Dist: python-dateutil>=2.9
+Requires-Dist: rapidfuzz>=3.9
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
